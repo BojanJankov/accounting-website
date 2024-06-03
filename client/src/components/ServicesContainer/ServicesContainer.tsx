@@ -2,7 +2,7 @@ import "./ServicesContainer.css";
 
 function ServicesContainer() {
   return (
-    <div className="services-container">
+    <div id="services">
       <h1 className="services-h1">What we offer?</h1>
       <div className="cards-services-div">
         <div className="services-card">

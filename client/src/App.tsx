@@ -1,4 +1,5 @@
 import "./App.css";
+import Footer from "./Layout/Footer/Footer";
 import Header from "./Layout/Header/Header";
 import CompanyContainer from "./components/CompanyContainer/ComapnyContainer";
 import MainContainer from "./components/MainContainer/MainContainer";
@@ -11,6 +12,7 @@ function App() {
       <MainContainer />
       <ServicesContainer />
       <CompanyContainer />
+      <Footer />
     </section>
   );
 }

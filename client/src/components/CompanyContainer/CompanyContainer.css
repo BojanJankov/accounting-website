@@ -1,4 +1,4 @@
-.company-container {
+#about {
   background-color: white;
   height: 730px;
 }
@@ -18,11 +18,11 @@
   font-size: 42px;
 }
 
-.image-comapny-card img {
+.image-company-card img {
   border-radius: 5px;
 }
 
-.info-comapny-card {
+.info-company-card {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -30,8 +30,30 @@
   gap: 50px;
 }
 
-.comapny-h3 {
+.info-company-card div {
+  width: 500px;
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  background-color: grey;
+  padding: 10px 20px;
+  border-radius: 10px;
+  color: black;
+}
+
+.company-h3 {
   color: black;
   text-align: left;
   font-size: 30px;
+  font-weight: 500;
+  border-bottom: 1px solid black;
+}
+
+span {
+  font-weight: 900;
+}
+
+.company-p {
+  padding: 5px 0px;
 }

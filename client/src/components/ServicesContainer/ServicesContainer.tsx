@@ -6,6 +6,13 @@ function ServicesContainer() {
       <h1 className="services-h1">What we offer?</h1>
       <div className="cards-services-div">
         <div className="services-card">
+          <figure>
+            <img
+              src="../../../../src/assets/buidling.jpg"
+              alt=""
+              width="400px"
+            />
+          </figure>
           <h2 className="card-heading">Accounting services</h2>
           <div className="card-text">
             <p>
@@ -18,6 +25,13 @@ function ServicesContainer() {
           </div>
         </div>
         <div className="services-card">
+          <figure>
+            <img
+              src="../../../../src/assets/salaries.webp"
+              alt=""
+              width="400px"
+            />
+          </figure>
           <h2 className="card-heading">Calculation of salaries</h2>
           <div className="card-text">
             <p>
@@ -30,6 +44,9 @@ function ServicesContainer() {
           </div>
         </div>
         <div className="services-card">
+          <figure>
+            <img src="../../../../src/assets/tax.jpeg" alt="" width="400px" />
+          </figure>
           <h2 className="card-heading">Tax advice and tax reports</h2>
           <div className="card-text">
             <p>

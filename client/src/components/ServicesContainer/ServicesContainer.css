@@ -23,14 +23,30 @@
 .cards-services-div .services-card {
   background-color: white;
   width: 400px;
-  height: 300px;
+  height: 500px;
   border-radius: 10px;
 }
 
 .card-heading {
   text-align: left;
-  margin-top: 15px;
+  margin-top: 5px;
   padding: 10px 20px;
+}
+
+figure {
+  margin: 0;
+  padding: 0;
+  aspect-ratio: 16 / 9;
+  overflow: hidden;
+}
+
+figure img {
+  transform: scale(var(--img-scale));
+  transition: transform 0.4s ease-in-out;
+}
+
+figure:has(:hover, :focus) {
+  --img-scale: 1.1;
 }
 
 .card-text {
@@ -38,7 +54,8 @@
 }
 
 .card-text p {
-  padding: 20px 0px;
+  padding: 15px 0px 20px 0px;
+
   text-align: left;
   font-size: 18px;
 }
@@ -50,4 +67,24 @@
   border: 1px solid grey;
   cursor: pointer;
   text-align: left;
+}
+
+/* button */
+
+.read-more-btn {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24'%3E%3Cpath d='M0 0h24v24H0z' fill='none'/%3E%3Cpath d='M12 4l-1.41 1.41L16.17 11H4v2h12.17l-5.58 5.59L12 20l8-8z'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: 130px 5px;
+  transition: background-position 0.5s ease, padding-left 0.5s ease;
+  width: 120px;
+  height: 30px;
+  border: 1px solid #000;
+  font-size: 14px;
+  padding: 1px 7px 1px 7px;
+}
+
+.read-more-btn:hover {
+  transition: background-position 0.5s ease, padding-left 0.5s ease;
+  background-position: 90px 3px;
+  padding-left: 5px;
 }

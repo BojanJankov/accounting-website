@@ -1,0 +1,37 @@
+.company-container {
+  background-color: white;
+  height: 730px;
+}
+
+.company-container-div {
+  height: 600px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  place-items: center;
+}
+.company-container-heading {
+  color: black;
+  text-align: left;
+  padding-top: 50px;
+  padding-left: 60px;
+  font-weight: 700;
+  font-size: 42px;
+}
+
+.image-comapny-card img {
+  border-radius: 5px;
+}
+
+.info-comapny-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  gap: 50px;
+}
+
+.comapny-h3 {
+  color: black;
+  text-align: left;
+  font-size: 30px;
+}

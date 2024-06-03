@@ -1,0 +1,53 @@
+.services-container {
+  background-color: black;
+  height: 730px;
+}
+
+.services-h1 {
+  color: white;
+  text-align: left;
+  padding-top: 50px;
+  padding-left: 60px;
+  font-weight: 700;
+  font-size: 42px;
+}
+
+.cards-services-div {
+  height: 500px;
+  margin-top: 30px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  place-items: center;
+}
+
+.cards-services-div .services-card {
+  background-color: white;
+  width: 400px;
+  height: 300px;
+  border-radius: 10px;
+}
+
+.card-heading {
+  text-align: left;
+  margin-top: 15px;
+  padding: 10px 20px;
+}
+
+.card-text {
+  padding: 0px 20px;
+}
+
+.card-text p {
+  padding: 20px 0px;
+  text-align: left;
+  font-size: 18px;
+}
+
+.read-more-btn {
+  padding: 5px;
+  width: 110px;
+  border-radius: 5px;
+  border: 1px solid grey;
+  cursor: pointer;
+  text-align: left;
+}

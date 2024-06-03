@@ -1,0 +1,19 @@
+.mainContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 200px 500px;
+  margin-bottom: 90px;
+}
+
+.main-text {
+  font-weight: 700;
+  font-size: 56px;
+  text-align: center;
+}
+
+.moto-text {
+  text-align: center;
+  font-weight: 400;
+  font-size: 18px;
+}
